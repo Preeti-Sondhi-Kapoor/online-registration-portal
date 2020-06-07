@@ -1,11 +1,12 @@
 # online-registration-portal
 This project has a login page,Home Page, registration page and logout page 
+
 I have created a complete login and registration system with Python, Flask and MySQL.
 
 prerequisite:
 
 1) Download and install MySQL Community Server and MySQL Workbench.
-2) Python 3.7
+2) Download and Install Python 3.7
 3) Install Python Flask with the command: pip install flask
 4) Install Flask-MySQLdb with the command: pip install flask-mysqldb
 
@@ -31,16 +32,4 @@ CREATE TABLE IF NOT EXISTS `accounts` (
 
 INSERT INTO `accounts` (`id`, `username`, `password`,`mobileno`, `email`,`phoneno`) VALUES (1, 'preeti', 'evaan', '0183587654','test@test.com','959242434');
 
-
-File Structure:
-
-\-- online-portal
-  |-- main.py
-  \-- static
-    |-- style.css
-  \-- templates
-    |-- index.html
-    |-- register.html
-    |-- home.html
-    |-- profile.html
-    |-- layout.html
+Run main.py
